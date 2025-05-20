@@ -5,7 +5,7 @@ import io
 from ifc_parser import load_ifc_file, get_elements_with_properties
 
 st.set_page_config(page_title="IFC Report Tool", layout="wide")
-st.title("📊 IFC Herramienta de reportes")
+st.title("📊 IFC Report Tools")
 
 # Subir archivo IFC
 uploaded_file = st.file_uploader("Sube un archivo IFC", type=["ifc"])
